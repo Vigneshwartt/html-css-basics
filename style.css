@@ -1,0 +1,128 @@
+h1{
+    color:red;
+}
+h2{
+    color:blue;
+}
+p{
+    font: size 5px;
+    font-style:italic;
+    font-color:red;
+    font-weight: bold;
+}
+
+.intro{
+    background-color: violet;
+    color:aqua;
+}
+.intro h2{
+    color:white;
+}
+.intro p{
+    font-size: 40px;
+}
+.main h2{
+background-color: black;
+color:blue;
+font-size: 30px;
+}
+.main p{
+    background-color:brown;
+    color:aquamarine;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: 30px;
+}
+.main {
+    background-color: white;
+    border-style:dashed;
+    border-color:red;
+    color:white;
+    border-left:solid;
+    border-right:dashed;
+    border-radius:15px;
+}
+.main p{
+    margin-top:5px;
+    margin-bottom: 5px;
+    margin-left:5px;
+    margin-right:5px;
+}
+.main h3{
+    margin-top:5px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    margin-left:5px;
+}
+.main h2{
+    margin : 10px 10px 10px 10px;
+}
+.test{
+    padding-left: 50px;
+    padding-right: 50px;
+    width:auto;
+    background-color: blueviolet;
+    outline-style: dashed;
+    outline:10px dashed blue;
+}
+*{
+    text-align: center;
+    
+}
+.one{
+    background-color: aqua;
+    width: 100%;
+    
+
+}
+.two{
+    background-color: blueviolet;
+    width:100px;
+    width: 33.5em;
+    height: 200px;
+   float:left; 
+    
+}
+.threee{
+    
+    background-color: brown;
+    width:100px;
+    width: 33.5em;
+    height: 200px;
+    float:left;
+}
+.four{
+    background-color: chartreuse;
+    width:100px;
+    width: 33.5em;
+    height: 200px;
+    float:left;
+    
+}
+form{
+    background-color: black;
+    color:brown;
+
+
+}
+button[type="submit"]
+{
+    background-color: aqua;
+}
+.flex-container{
+    justify-content:flex-start;
+    background-color: deeppink;
+    display:flex;
+    flex-flow: row;
+    justify-content: center;
+    height:100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.flex-container>div {
+    background-color: aquamarine;
+    color: black;
+    margin: 20px;
+    padding: 20px;
+    font-size: 30px;
+    float:left;
+}
